@@ -38,7 +38,7 @@
 #
 # ------------------------------------------------------------------------------
 
-CONFIG_HOME="$HOME/.bcgithook"
+CONFIG_HOME="opt/eap/standalone/.bcgithook"
 [[ ! -d "$CONFIG_HOME" ]] && mkdir -p "$CONFIG_HOME" 
 CONFIG_FILE="$CONFIG_HOME/default.conf"
 
